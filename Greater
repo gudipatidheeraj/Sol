@@ -1,0 +1,10 @@
+pragma solidity >=0.4.0 <0.9.0;
+contract Greet {
+    string a;
+    function greeter(string _Greet) public {
+        a = _Greet;
+    }
+    function gree() constant returns (string) {
+    return a;
+    }
+}
